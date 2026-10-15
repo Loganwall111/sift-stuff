@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "blockbench-bridge": {
+      "command": "node",
+      "args": [
+        "C:/Users/pat/Documents/blockbench-mcp/build/index.js"
+      ],
+      "env": {
+        "BLOCKBENCH_PORT": "8000",
+        "SIFTAGE_WORKSPACE": "src/main/resources/assets/siftage/rift"
+      },
+      "always_on": true
+    }
+  }
+}
